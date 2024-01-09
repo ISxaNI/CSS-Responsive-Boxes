@@ -2,3 +2,67 @@ body {
   background: papayawhip;
 }
 
+* {
+  outline: 1px solid black;
+}
+.container {
+  height: 100vh;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.secondcontainer {
+  display: flex;
+  height: 10%;
+  width: 70%;
+  margin-left: 10px;
+}
+.a {
+  background: cyan;
+  flex-grow: 2;
+  margin: 10px;
+  height: 0;
+}
+
+.b {
+  background: green;
+  flex-grow: 3;
+  margin: 10px;
+  width: 70%;
+}
+
+.c {
+  background: yellow;
+  flex-grow: 1;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.d {
+  background: yellowgreen;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.e {
+  background: pink;
+  flex-grow: 1;
+  margin: 10px;
+  margin-right: 0;
+}
+
+.f {
+  background: purple;
+  flex-grow: 2;
+  margin: 10px;
+  width: 30%;
+  height: 100px;
+  
+}
+
+@media (min-width: 600px) {
+
+}

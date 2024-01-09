@@ -3,11 +3,6 @@ body {
   background: blanchedalmond;
 }
 
-.container div {
-  outline: 1px solid black;
-  
-}
-
 .container {
   height: 100vh;
   background: rgb(182, 182, 227);
