@@ -16,8 +16,9 @@ body {
 
 .secondcontainer {
   display: flex;
-  height: 20%;
+  height: 60%;
   margin: 0 10px 0 10px;
+  flex-wrap: wrap;
 }
 .a {
   background: cyan;
@@ -30,8 +31,8 @@ body {
 .b {
   background: green;
   flex-grow: 3;
-  margin: 10px;
-  height: 30%;
+  height: 70%;
+  width: 100%;
 }
 
 .c {
@@ -39,12 +40,14 @@ body {
   flex-grow: 1;
   margin: 10px;
   margin-left: 0px;
+  height: 27%
 }
 
 .d {
   background: yellowgreen;
   flex-grow: 1;
   margin: 10px;
+  height: 27%
 }
 
 .e {
@@ -52,6 +55,7 @@ body {
   flex-grow: 1;
   margin: 10px;
   margin-right: 0;
+  height: 27%
 }
 
 .f {
@@ -72,7 +76,8 @@ body {
 
   .secondcontainer {
     width: 70%;
-    height: 20%;
+    height: 60%;
+    flex-wrap: wrap;
   }
 
   .a {
@@ -82,27 +87,26 @@ body {
   }
 
   .b {
-    width: 40em;
-    padding: 5px;
-    height: 30%;
-    max-width: 70%;
-    align-items: left;
+    width: 100%;
+    margin-left: 0px;
+    height: 50%;
   }
 
   .c {
-
+    height: 40%;
   }
 
   .d {
-
+    height: 40%;
   }
 
   .e {
-
+    height: 40%;
   }
 
   .f {
-    height: 40%;
+    height: 57%;
     max-width: 25%;
+    margin-top: 0px;
   }
 }
