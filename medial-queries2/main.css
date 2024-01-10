@@ -2,9 +2,6 @@ body {
   background: papayawhip;
 }
 
-* {
-  outline: 1px solid black;
-}
 .container {
   height: 100vh;
   background: grey;
