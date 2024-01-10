@@ -1,3 +1,118 @@
 body {
   background: peachpuff;
 }
+
+body {
+  background: papayawhip;
+}
+
+.container {
+  height: 100vh;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.secondcontainer {
+  display: flex;
+  height: 40%;
+  flex-wrap: wrap;
+  width: 100%
+}
+.a {
+  background: cyan;
+  flex-grow: 2;
+  margin: 10px;
+  height: 10%;
+  align-items: center;
+  max-height: 40%
+}
+
+.b, .c, .d, .e, .f, .g {
+  background: green;
+  flex-grow: 1;
+  height: 30%;
+  width: 28%;
+  margin: 10px;
+}
+.b {
+  background: green;
+}
+
+.c {
+  background: yellow;
+}
+
+.d {
+  background: yellowgreen;
+}
+
+.e {
+  background: pink;
+}
+
+.f {
+  background: purple;
+}
+
+.g {
+  background: red;
+}
+
+.h {
+  background-color: teal;
+  flex-grow: 2;
+  margin: 10px;
+  height: 40%
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: left;
+  }
+
+  .secondcontainer {
+    width: 70%;
+    height: 60%;
+    flex-wrap: wrap;
+  }
+
+  .a {
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+  }
+
+  .b {
+    height: 40%;
+  }
+
+  .c {
+    height: 40%;
+  }
+
+  .d {
+    height: 40%;
+  }
+
+  .e {
+    height: 40%;
+  }
+
+  .f {
+    height: 40%;
+  }
+  .g {
+    height: 40%
+  }
+
+  .h {
+    margin: 10px 10px 0px 10px;
+    max-height: 60%;
+    height: 55%;
+  }
+}

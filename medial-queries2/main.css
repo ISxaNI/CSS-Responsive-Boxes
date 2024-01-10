@@ -40,14 +40,14 @@ body {
   flex-grow: 1;
   margin: 10px;
   margin-left: 0px;
-  height: 27%
+  height: 27%;
 }
 
 .d {
   background: yellowgreen;
   flex-grow: 1;
   margin: 10px;
-  height: 27%
+  height: 27%;
 }
 
 .e {
@@ -55,7 +55,7 @@ body {
   flex-grow: 1;
   margin: 10px;
   margin-right: 0;
-  height: 27%
+  height: 27%;
 }
 
 .f {
